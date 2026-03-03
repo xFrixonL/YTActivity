@@ -7,7 +7,7 @@
 *.xls
 
 # EXCEPCIÓN: Permitir solo el formato de ejemplo
-!excel_formato.xlsx
+!ejemplo_formato.xlsx
 
 # --- SCRIPTS DE PYTHON ---
 # Ignorar todos los archivos .py para que no se suban pruebas
