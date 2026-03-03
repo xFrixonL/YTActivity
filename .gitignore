@@ -1,0 +1,24 @@
+# --- SEGURIDAD ---
+.env
+
+# --- ARCHIVOS DE EXCEL ---
+# Ignorar todos los Excel
+*.xlsx
+*.xls
+
+# EXCEPCIÓN: Permitir solo el formato de ejemplo
+!excel_formato.xlsx
+
+# --- SCRIPTS DE PYTHON ---
+# Ignorar todos los archivos .py para que no se suban pruebas
+*.py
+
+# EXCEPCIÓN: Permitir solo el archivo principal
+!main.py
+
+# --- BASURA DEL SISTEMA ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
